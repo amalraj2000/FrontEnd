@@ -1,0 +1,288 @@
+.subtractIcon,
+.subtractIcon1 {
+  position: absolute;
+  top: -0.5px;
+  left: 0;
+  width: 26px;
+  height: 26px;
+}
+.subtractIcon {
+  display: none;
+}
+.subtractIcon1 {
+  z-index: 1;
+}
+.subtractParent {
+  height: 26px;
+  width: 26px;
+  position: relative;
+}
+.base {
+  height: 27px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.baseFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  width: 40px;
+  height: 40px;
+}
+.plusIcon {
+  position: absolute;
+  top: 9px;
+  left: 8.4px;
+  width: 22.6px;
+  height: 22.6px;
+  object-fit: contain;
+  z-index: 1;
+}
+.rectangleParent {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+.frameRoot {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.iconlyboldcategory {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+  min-height: 24px;
+}
+.dashboard {
+  height: 22px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.categoryIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.iconlyboldchart {
+  width: 24px;
+  height: 26.4px;
+  position: relative;
+  object-fit: cover;
+}
+.uploadArea {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.upload {
+  position: relative;
+  font-size: var(--paragraph-ui-type-text-md-s-size);
+  font-weight: 600;
+  font-family: var(--font-nunito);
+  color: var(--color-mediumslateblue-300);
+  text-align: left;
+}
+.frameItem {
+  height: 48px;
+  width: 105px;
+  position: absolute;
+  margin: 0 !important;
+  top: -11px;
+  left: -33px;
+  border-radius: 0 var(--br-8xs) var(--br-8xs) 0;
+  background: linear-gradient(90deg, #aca9ff, rgba(172, 169, 255, 0));
+  opacity: 0.2;
+  z-index: 1;
+}
+.uploadAreaParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0 0 var(--padding-12xs);
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-sm);
+}
+.iconlyboldticket {
+  width: 24px;
+  height: 16.4px;
+  position: relative;
+  object-fit: cover;
+}
+.documentFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.invoice {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  height: 13.6px;
+  opacity: 0.5;
+}
+.ticketIcon {
+  height: 24px;
+  flex-direction: row;
+  gap: var(--gap-sm);
+  color: var(--text);
+}
+.calendarFrame,
+.dashboardFrame,
+.ticketIcon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.calendarFrame {
+  flex-direction: column;
+  gap: var(--gap-20xl);
+}
+.dashboardFrame {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-smi);
+  text-align: left;
+  font-size: var(--paragraph-ui-type-text-md-s-size);
+  color: var(--color-darkgray-100);
+  font-family: var(--font-nunito);
+}
+.iconlybolddocument {
+  height: 26.4px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.schedule {
+  height: 22px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  opacity: 0.5;
+}
+.documentCalendar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.calendarIcon {
+  height: 26.4px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.calendar {
+  height: 22px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  opacity: 0.5;
+}
+.documentCalendar1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.iconlyboldnotification {
+  height: 26.4px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.notification {
+  height: 22px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  opacity: 0.5;
+}
+.documentCalendar2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.iconlyboldsetting {
+  height: 26.4px;
+  width: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.settings {
+  position: relative;
+  font-weight: 600;
+  opacity: 0.5;
+}
+.documentCalendar3 {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-sm);
+}
+.documentCalendar3,
+.menu,
+.scheduleFrame,
+.settingFrame {
+  display: flex;
+  justify-content: flex-start;
+}
+.settingFrame {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-21xl);
+}
+.menu,
+.scheduleFrame {
+  text-align: left;
+  color: var(--text);
+  font-family: var(--font-nunito);
+}
+.scheduleFrame {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-smi);
+  font-size: var(--paragraph-ui-type-text-md-s-size);
+}
+.menu {
+  width: 300px;
+  border-radius: 0 var(--br-xl) var(--br-xl) 0;
+  background-color: var(--light-gohan);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-9xl) var(--padding-2xl) 261px var(--padding-xl);
+  box-sizing: border-box;
+  gap: 43px;
+  max-width: 100%;
+  max-height: 100%;
+  font-size: var(--font-size-xl);
+}

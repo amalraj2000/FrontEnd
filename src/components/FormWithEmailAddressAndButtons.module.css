@@ -1,0 +1,367 @@
+.button,
+.white {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+.button {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-gohan);
+}
+.white {
+  margin: 0 !important;
+  top: 0.3px;
+  right: 0.6px;
+  bottom: -0.2px;
+}
+.googleIcon1,
+.signInWith {
+  position: relative;
+  z-index: 1;
+}
+.googleIcon1 {
+  height: 12px;
+  width: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.signInWith {
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-montserrat);
+  color: var(--secondary-text);
+  text-align: center;
+}
+.whiteParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-base) var(--padding-6xs);
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-4xs);
+}
+.button1,
+.white1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.button1 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-gohan);
+}
+.white1 {
+  margin: 0 !important;
+  top: 0.3px;
+  right: -0.8px;
+  bottom: -0.2px;
+  left: 0.4px;
+}
+.apple1Icon,
+.signInWith1 {
+  position: relative;
+  z-index: 1;
+}
+.apple1Icon {
+  height: 15.4px;
+  width: 9.8px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.signInWith1 {
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-montserrat);
+  color: var(--secondary-text);
+  text-align: center;
+}
+.frameParent,
+.whiteGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.whiteGroup {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-xl) var(--padding-6xs);
+  background-color: transparent;
+  position: relative;
+  gap: var(--gap-4xs);
+}
+.frameParent {
+  height: 33px;
+  gap: var(--gap-3xl);
+}
+.card,
+.card1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+.card1 {
+  top: 0.7px;
+  bottom: -0.7px;
+  border-radius: var(--br-xl);
+  background-color: var(--light-gohan);
+}
+.card {
+  margin: 0 !important;
+  top: 0.5px;
+  bottom: 3.5px;
+}
+.emailAddress1 {
+  width: 111.6px;
+  position: relative;
+  font-size: var(--paragraph-ui-type-text-md-s-size);
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.inputField1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -0.11%;
+  right: 0.14%;
+  bottom: 0.11%;
+  left: -0.14%;
+  border-radius: var(--br-3xs);
+  background-color: var(--background);
+}
+.inputField,
+.johndoegmailcom {
+  height: 43.9px;
+  width: 276.9px;
+  position: relative;
+  z-index: 1;
+}
+.johndoegmailcom {
+  width: 139px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-lato);
+  font-size: var(--paragraph-ui-type-text-md-s-size);
+  background-color: transparent;
+  height: 19px;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 2;
+  margin-left: -264px;
+}
+.emailAddress,
+.frameWhiteButtonGoogle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.emailAddress {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-smi);
+}
+.password {
+  font-size: var(--paragraph-ui-type-text-md-s-size);
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.input,
+.input1,
+.password {
+  position: relative;
+}
+.input {
+  height: 43.9px;
+  width: 276.9px;
+  border-radius: var(--br-3xs);
+  background-color: var(--field-color-darker);
+  display: none;
+}
+.input1 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-lato);
+  font-size: var(--paragraph-ui-type-text-md-s-size);
+  background-color: transparent;
+  height: 19px;
+  flex: 1;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 41px;
+  z-index: 2;
+}
+.signInButtonChild {
+  height: 20.8px;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--color-darkgray-200);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.signInButton {
+  align-self: stretch;
+  width: 78px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.buttonPrimaryInstance,
+.cardParentEmailAddress {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.buttonPrimaryInstance {
+  border-radius: var(--br-3xs);
+  background-color: var(--field-color-darker);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-2xs) var(--padding-smi) var(--padding-xs);
+  z-index: 1;
+}
+.cardParentEmailAddress {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-smi);
+}
+.forgotPassword {
+  width: 153.1px;
+  position: relative;
+  font-size: var(--paragraph-ui-type-text-md-s-size);
+  font-family: var(--font-lato);
+  color: var(--link);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.forgotPasswordWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonPrimary,
+.buttonPrimary1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.buttonPrimary1 {
+  top: 1.59%;
+  right: 0;
+  bottom: -1.59%;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mediumslateblue-300);
+  cursor: pointer;
+}
+.buttonPrimary {
+  top: 0.4px;
+  left: -0.4px;
+  z-index: 1;
+}
+.signIn {
+  position: absolute;
+  top: 10.2px;
+  left: 99.7px;
+  font-size: var(--paragraph-ui-type-text-md-s-size);
+  display: inline-block;
+  font-family: var(--font-montserrat);
+  color: var(--light-gohan);
+  text-align: center;
+  width: 77.7px;
+  z-index: 2;
+}
+.cardParent,
+.discordLogoFrame {
+  align-self: stretch;
+  position: relative;
+}
+.discordLogoFrame {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 44px;
+}
+.cardParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-14xl) var(--padding-6xl) var(--padding-15xl)
+    var(--padding-7xl);
+  gap: var(--gap-4xl);
+}
+.dontHaveAn {
+  margin: 0;
+  color: var(--secondary-text);
+}
+.blankLine,
+.registerHere {
+  margin: 0;
+  color: var(--link);
+}
+.dontHaveAnContainer {
+  width: 242px;
+  height: 57px;
+  position: relative;
+  font-size: var(--paragraph-ui-type-text-md-s-size);
+  font-family: var(--font-lato);
+  text-align: center;
+  display: inline-block;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+}
+.whiteButtonApple {
+  margin: 0;
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-7xl);
+  max-width: 100%;
+}
+@media screen and (max-width: 450px) {
+  .cardParent {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}

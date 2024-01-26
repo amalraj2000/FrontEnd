@@ -1,0 +1,240 @@
+.uploadCsv {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.inputContainerFrame,
+.placeholdertext {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputContainerFrame {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+}
+.uploadCSVFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 684px;
+  max-width: 100%;
+}
+.maskGroupIcon,
+.maskGroupInstance {
+  height: 23px;
+  width: 18px;
+  position: relative;
+}
+.maskGroupIcon {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+}
+.rectangleFrame,
+.vectorFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.rectangleFrame {
+  align-self: stretch;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: var(--gap-15xl);
+  max-width: 100%;
+}
+.frameFrameIcon {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  margin: 0 !important;
+  top: 71px;
+  left: calc(50% - 18px);
+}
+.placeholderText {
+  width: 169px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: var(--padding-xl);
+}
+.placeholdertext1 {
+  width: 248px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.frameFrameChild {
+  width: 564px;
+  height: 258px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  border: 1px dashed var(--light-beerus-hover);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+  z-index: 2;
+}
+.placeholderText2 {
+  position: relative;
+  line-height: 24px;
+}
+.placeholderText1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-9xs) var(--padding-139xl) var(--padding-xs);
+  z-index: 2;
+  font-size: var(--font-size-sm);
+  color: var(--supportive-dodoria-100);
+}
+.frameFrame,
+.rectangle {
+  position: relative;
+  box-sizing: border-box;
+}
+.frameFrame {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  border: 1px dashed var(--light-beerus-hover);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-104xl) var(--padding-79xl) var(--padding-40xl) 0;
+  gap: var(--gap-xs);
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangle {
+  height: 19px;
+  width: 19px;
+  border-radius: var(--br-81xl);
+  border: 2px solid var(--light-gohan);
+}
+.sizemdIconleftTypeprima {
+  align-self: stretch;
+  height: 56px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-mediumslateblue-300);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base) var(--padding-5xs)
+    var(--padding-5xs);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.inputContainer,
+.inputContainerFrame1 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.inputContainer {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--light-gohan);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-base);
+  gap: var(--gap-2xl);
+}
+.inputContainerFrame1 {
+  width: 622px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-7xl) 0 0;
+  text-align: center;
+  font-size: var(--paragraph-ui-type-text-md-s-size);
+  color: var(--light-trunks);
+}
+.chartFrame,
+.dashboardFrame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.chartFrame {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-118xl);
+  max-width: 100%;
+}
+.dashboardFrame {
+  flex: 1;
+  align-items: flex-start;
+  padding: var(--padding-30xl) 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 248px);
+  text-align: left;
+  font-size: var(--paragraph-ui-type-text-2xl-s-size);
+  color: var(--color-black);
+  font-family: var(--paragraph-ui-type-text-2xl-s);
+}
+@media screen and (max-width: 1125px) {
+  .chartFrame {
+    gap: var(--gap-49xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .dashboardFrame {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .uploadCSVFrame {
+    min-width: 100%;
+  }
+  .rectangleFrame {
+    gap: var(--gap-mid);
+  }
+  .frameFrame {
+    padding-right: var(--padding-30xl);
+    box-sizing: border-box;
+  }
+  .chartFrame {
+    gap: var(--gap-15xl);
+  }
+  .dashboardFrame {
+    padding-top: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .uploadCsv {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .placeholderText1 {
+    gap: var(--gap-11xl);
+    padding-left: var(--padding-xl);
+  }
+  .frameFrame,
+  .placeholderText1 {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .chartFrame {
+    gap: var(--gap-mid);
+  }
+}

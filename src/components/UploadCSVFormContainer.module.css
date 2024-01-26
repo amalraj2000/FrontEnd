@@ -1,0 +1,118 @@
+.uploadCsv {
+  position: relative;
+}
+.inputContainerFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+}
+.dataFrameRow {
+  width: 36px;
+  height: 36px;
+  position: relative;
+}
+.here {
+  color: var(--color-mediumslateblue-300);
+}
+.placeholderText {
+  position: relative;
+  line-height: 24px;
+}
+.tableDemoFrame,
+.tableDemoFrameChild {
+  border-radius: var(--br-5xs);
+  border: 1px dashed var(--light-beerus-hover);
+}
+.tableDemoFrameChild {
+  width: 296px;
+  position: relative;
+  box-sizing: border-box;
+  height: 258px;
+  display: none;
+}
+.tableDemoFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-72xl) var(--padding-37xl);
+  gap: var(--gap-base);
+  z-index: 1;
+}
+.icon,
+.value {
+  position: relative;
+}
+.icon {
+  height: 24px;
+  width: 24px;
+  min-height: 24px;
+}
+.value {
+  font-size: var(--font-size-sm);
+  line-height: 24px;
+  font-weight: 600;
+  font-family: var(--paragraph-ui-type-text-2xl-s);
+  color: var(--light-gohan);
+  text-align: left;
+}
+.sizemdIconleftTypeprima {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-94xl) var(--padding-2xs)
+    var(--padding-86xl);
+  background-color: var(--color-mediumslateblue-300);
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xs);
+  opacity: 0.4;
+}
+.sizemdIconleftTypeprima:hover {
+  background-color: var(--color-mediumslateblue-200);
+}
+.inputContainer,
+.uploadCSVText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.inputContainer {
+  border-radius: var(--br-3xs);
+  background-color: var(--light-gohan);
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.04);
+  align-items: center;
+  padding: var(--padding-base);
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--light-trunks);
+  font-family: var(--paragraph-ui-type-text-2xl-s);
+}
+.uploadCSVText {
+  height: 418px;
+  align-items: flex-start;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--paragraph-ui-type-text-md-s-size);
+  color: var(--text);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 450px) {
+  .sizemdIconleftTypeprima,
+  .tableDemoFrame {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

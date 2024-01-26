@@ -1,0 +1,131 @@
+.component90Child {
+  height: 80px;
+  width: 360px;
+  position: relative;
+  background: linear-gradient(180deg, #fff, #fff);
+  display: none;
+  max-width: 100%;
+}
+.burgerRegular,
+.shape {
+  position: absolute;
+  left: 0;
+}
+.shape {
+  top: 0;
+  border-radius: var(--br-31xl);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.burgerRegular {
+  margin: 0;
+  top: 14px;
+  border: 1.5px solid var(--light-bulma);
+  box-sizing: border-box;
+  width: 16px;
+  height: 12px;
+  cursor: pointer;
+  z-index: 2;
+}
+.subtractIcon {
+  position: absolute;
+  top: calc(50% - 13px);
+  right: -18px;
+  width: 26px;
+  height: 26px;
+  z-index: 3;
+}
+.shapeParent,
+.subtractIcon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.subtractIcon1 {
+  top: 7px;
+  left: 32px;
+  width: 26px;
+  height: 26px;
+  display: none;
+  z-index: 2;
+}
+.basicFrame {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+.base {
+  margin: 0;
+  height: 27px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.childFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) 0 0;
+  gap: var(--gap-2xs);
+}
+.vectorIcon {
+  height: 23px;
+  width: 18px;
+  position: relative;
+  z-index: 1;
+}
+.childFrame1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.maskGroupIcon {
+  position: absolute;
+  top: 5px;
+  left: 9.6px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  z-index: 2;
+}
+.childFrameParent {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+.component90,
+.topLevelFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.component90 {
+  align-self: stretch;
+  background: linear-gradient(180deg, #fff, #fff);
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--text);
+  font-family: var(--font-nunito);
+}

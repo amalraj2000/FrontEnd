@@ -1,0 +1,164 @@
+.button {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-gohan);
+  display: none;
+}
+.white {
+  height: 32.9px;
+  width: 197.6px;
+  position: relative;
+  display: none;
+}
+.uploadFrame {
+  width: 218px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0;
+  box-sizing: border-box;
+}
+.uploadCsv {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.uploadCSVFrameInner,
+.uploadCsvWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.uploadCSVFrameInner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+}
+.uploadCSVFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 684px;
+  max-width: 100%;
+  z-index: 1;
+}
+.maskGroupIcon,
+.maskGroupNode {
+  height: 23px;
+  width: 18px;
+  position: relative;
+}
+.maskGroupIcon {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+}
+.vectorNode {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.subtractFrame,
+.subtractFrameParent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.subtractFrame {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: var(--gap-15xl);
+}
+.subtractFrameParent {
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-118xl);
+}
+.upload,
+.uploadInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.uploadInner {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-30xl) 0 0;
+  max-width: calc(100% - 248px);
+  text-align: left;
+  font-size: var(--paragraph-ui-type-text-2xl-s-size);
+  color: var(--color-black);
+  font-family: var(--paragraph-ui-type-text-2xl-s);
+}
+.upload {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 var(--padding-11xl) 0 0;
+  gap: var(--gap-11xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1125px) {
+  .subtractFrameParent {
+    gap: var(--gap-49xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .uploadFrame {
+    display: none;
+  }
+  .uploadInner {
+    max-width: 100%;
+  }
+  .upload {
+    padding-left: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .uploadCSVFrame {
+    min-width: 100%;
+  }
+  .subtractFrame {
+    gap: var(--gap-mid);
+  }
+  .subtractFrameParent {
+    gap: var(--gap-15xl);
+  }
+  .uploadInner {
+    padding-top: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .upload {
+    gap: var(--gap-mini);
+  }
+}
+@media screen and (max-width: 450px) {
+  .uploadCsv {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .subtractFrameParent {
+    gap: var(--gap-mid);
+  }
+}

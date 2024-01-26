@@ -1,0 +1,85 @@
+.sizedmdIconLeftTypePrimary {
+  width: 36px;
+  height: 36px;
+  position: relative;
+}
+.placeholderText,
+.placeholderText1 {
+  position: relative;
+  line-height: 24px;
+}
+.placeholderText1 {
+  font-size: var(--font-size-sm);
+  color: var(--supportive-dodoria-100);
+}
+.placeholderFrames,
+.placeholderFramesChild {
+  border-radius: var(--br-5xs);
+  border: 1px dashed var(--light-beerus-hover);
+}
+.placeholderFramesChild {
+  width: 296px;
+  position: relative;
+  box-sizing: border-box;
+  height: 258px;
+  display: none;
+}
+.placeholderFrames {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-72xl) var(--padding-54xl) var(--padding-32xl)
+    var(--padding-53xl);
+  gap: var(--gap-base);
+  z-index: 1;
+}
+.inputContainerChildren {
+  height: 19px;
+  width: 19px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  border: 2px solid var(--light-gohan);
+  box-sizing: border-box;
+}
+.inputContainer,
+.sizemdIconleftTypeprima {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.sizemdIconleftTypeprima {
+  align-self: stretch;
+  height: 46px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-mediumslateblue-300);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base) var(--padding-5xs)
+    var(--padding-5xs);
+  cursor: pointer;
+}
+.inputContainer {
+  width: 328px;
+  border-radius: var(--br-3xs);
+  background-color: var(--light-gohan);
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.04);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  gap: var(--gap-base);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--paragraph-ui-type-text-md-s-size);
+  color: var(--light-trunks);
+  font-family: var(--paragraph-ui-type-text-2xl-s);
+}
+@media screen and (max-width: 450px) {
+  .placeholderFrames {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

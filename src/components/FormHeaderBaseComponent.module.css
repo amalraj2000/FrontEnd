@@ -1,0 +1,82 @@
+.component90Child {
+  height: 80px;
+  width: 360px;
+  position: relative;
+  background-color: var(--color-mediumslateblue-300);
+  display: none;
+  max-width: 100%;
+}
+.subtractIcon {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  width: 26px;
+  height: 26px;
+  display: none;
+  z-index: 2;
+}
+.rectangleFrameChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -0.5px;
+  right: 0;
+  bottom: 0.5px;
+  left: 0;
+  border-radius: var(--br-31xl);
+  z-index: 1;
+}
+.subtractIcon1 {
+  height: 26px;
+  width: 26px;
+  position: relative;
+  z-index: 3;
+}
+.rectangleFrame {
+  position: absolute;
+  top: 0.5px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-sm) var(--padding-6xs) 0;
+}
+.base {
+  position: absolute;
+  top: 6.5px;
+  left: 37px;
+  font-weight: 600;
+  z-index: 2;
+}
+.component90Item,
+.subtractParent {
+  height: 40px;
+  width: 79px;
+  position: relative;
+}
+.component90Item {
+  width: 40px;
+  border-radius: var(--br-31xl);
+  z-index: 1;
+}
+.component90 {
+  align-self: stretch;
+  background-color: var(--color-mediumslateblue-300);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-nunito);
+}
